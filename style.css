@@ -6,6 +6,7 @@ body {
 
   main {
     flex: 1 0 auto;
+    background: white;
   }
     /* label color */
    .input-field label {
@@ -85,3 +86,19 @@ body {
     width: 50%;
     border-bottom: solid white;
   }
+  .container-large {
+    margin: 0 auto;
+    max-width:1280px;
+    width:95%;
+  }
+  .img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .tCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
